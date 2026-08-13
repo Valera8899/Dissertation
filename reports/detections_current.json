@@ -1,0 +1,33 @@
+{
+  "image_path": "yolo_proto\\data\\caps_xl_test\\xl_test_2.jpg",
+  "image_size_px": [
+    696,
+    1455
+  ],
+  "detections": [
+    {
+      "id": 0,
+      "class_id": 0,
+      "class_name": "electrolyt_cap_vert",
+      "conf": 0.2463,
+      "bbox_px": [
+        195.60374450683594,
+        22.658340454101562,
+        471.2325439453125,
+        300.9301452636719
+      ]
+    },
+    {
+      "id": 1,
+      "class_id": 0,
+      "class_name": "electrolyt_cap_vert",
+      "conf": 0.1088,
+      "bbox_px": [
+        192.50160217285156,
+        1140.7618408203125,
+        473.69000244140625,
+        1442.8253173828125
+      ]
+    }
+  ]
+}

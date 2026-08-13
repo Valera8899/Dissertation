@@ -1,0 +1,164 @@
+[
+  {
+    "image_path": "yolo_proto\\data\\caps_xl_test\\blue_board_1.jpg",
+    "image_size_px": [
+      4732,
+      2162
+    ],
+    "detections": [
+      {
+        "id": "C1",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.098,
+        "bbox_px": [
+          3038.806884765625,
+          47.70396423339844,
+          3637.935302734375,
+          630.4031982421875
+        ]
+      }
+    ]
+  },
+  {
+    "image_path": "yolo_proto\\data\\caps_xl_test\\blue_board_2.jpg",
+    "image_size_px": [
+      3000,
+      1526
+    ],
+    "detections": [
+      {
+        "id": "C1",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.1374,
+        "bbox_px": [
+          1329.5269775390625,
+          55.61676788330078,
+          1917.0216064453125,
+          631.4508666992188
+        ]
+      }
+    ]
+  },
+  {
+    "image_path": "yolo_proto\\data\\caps_xl_test\\blue_board_3.jpg",
+    "image_size_px": [
+      2336,
+      2360
+    ],
+    "detections": [
+      {
+        "id": "C1",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.0839,
+        "bbox_px": [
+          882.1002807617188,
+          1354.4925537109375,
+          1206.592529296875,
+          1669.43017578125
+        ]
+      }
+    ]
+  },
+  {
+    "image_path": "yolo_proto\\data\\caps_xl_test\\xl_test_1.jpg",
+    "image_size_px": [
+      705,
+      1449
+    ],
+    "detections": [
+      {
+        "id": "C1",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.2576,
+        "bbox_px": [
+          185.8415985107422,
+          6.509512424468994,
+          475.2726745605469,
+          294.2093200683594
+        ]
+      },
+      {
+        "id": "C2",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.2149,
+        "bbox_px": [
+          187.8679962158203,
+          1161.478271484375,
+          472.00506591796875,
+          1434.4749755859375
+        ]
+      }
+    ]
+  },
+  {
+    "image_path": "yolo_proto\\data\\caps_xl_test\\xl_test_2.jpg",
+    "image_size_px": [
+      696,
+      1455
+    ],
+    "detections": [
+      {
+        "id": "C1",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.2463,
+        "bbox_px": [
+          195.60374450683594,
+          22.658340454101562,
+          471.2325439453125,
+          300.9301452636719
+        ]
+      },
+      {
+        "id": "C2",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.1088,
+        "bbox_px": [
+          192.50160217285156,
+          1140.7618408203125,
+          473.69000244140625,
+          1442.8253173828125
+        ]
+      }
+    ]
+  },
+  {
+    "image_path": "yolo_proto\\data\\caps_xl_test\\xl_test_3.png",
+    "image_size_px": [
+      802,
+      1668
+    ],
+    "detections": [
+      {
+        "id": "C1",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.073,
+        "bbox_px": [
+          219.83055114746094,
+          18.39220428466797,
+          556.3599853515625,
+          348.7020568847656
+        ]
+      },
+      {
+        "id": "C2",
+        "class_id": 0,
+        "class_name": "electrolyt_cap_vert",
+        "conf": 0.0648,
+        "bbox_px": [
+          219.80833435058594,
+          1333.385986328125,
+          553.4777221679688,
+          1667.1517333984375
+        ]
+      }
+    ]
+  }
+]

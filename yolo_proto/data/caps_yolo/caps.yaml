@@ -1,0 +1,7 @@
+path: C:/dev/pcb/yolo_proto/data/caps_yolo
+
+train: images/train
+val: images/train  # поки що валідати нема, тож тупо юзаємо train
+
+names:
+  0: electrolyt_cap_vert

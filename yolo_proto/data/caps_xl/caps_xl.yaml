@@ -1,0 +1,7 @@
+path: C:/dev/pcb/yolo_proto/data/caps_xl
+
+train: images/train
+val: images/val
+
+names:
+  0: electrolyt_cap_vert

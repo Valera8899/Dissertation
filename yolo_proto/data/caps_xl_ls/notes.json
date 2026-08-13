@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "TO_263_5"
+    },
+    {
+      "id": 1,
+      "name": "smd_diode"
+    },
+    {
+      "id": 2,
+      "name": "smd_small_2pin"
+    },
+    {
+      "id": 3,
+      "name": "toroid_inductor_horz"
+    },
+    {
+      "id": 4,
+      "name": "trim_potentiometer"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

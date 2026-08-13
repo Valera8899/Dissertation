@@ -1,0 +1,5 @@
+TO_263_5
+smd_diode
+smd_small_2pin
+toroid_inductor_horz
+trim_potentiometer

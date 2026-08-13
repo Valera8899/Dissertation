@@ -1,0 +1,231 @@
+{
+  "items": [
+    {
+      "oid": "U1",
+      "component_id": "HEATSINK_A",
+      "optype": "UNSCREW",
+      "side": "TOP",
+      "target_points": [
+        [
+          20,
+          40
+        ]
+      ],
+      "preferred_nozzles": [
+        "SCREWDRIVER"
+      ],
+      "base_time_s": 2.0,
+      "heat_time_s": 0.0,
+      "priority": 0,
+      "prerequisites": []
+    },
+    {
+      "oid": "U2",
+      "component_id": "HEATSINK_A",
+      "optype": "UNSCREW",
+      "side": "TOP",
+      "target_points": [
+        [
+          35,
+          42
+        ]
+      ],
+      "preferred_nozzles": [
+        "SCREWDRIVER"
+      ],
+      "base_time_s": 2.0,
+      "heat_time_s": 0.0,
+      "priority": 0,
+      "prerequisites": []
+    },
+    {
+      "oid": "U3",
+      "component_id": "HEATSINK_A",
+      "optype": "UNSCREW",
+      "side": "TOP",
+      "target_points": [
+        [
+          28,
+          55
+        ]
+      ],
+      "preferred_nozzles": [
+        "SCREWDRIVER"
+      ],
+      "base_time_s": 2.0,
+      "heat_time_s": 0.0,
+      "priority": 0,
+      "prerequisites": []
+    },
+    {
+      "oid": "C1",
+      "component_id": "HEATSINK_A",
+      "optype": "UNCLAMP",
+      "side": "BOTTOM",
+      "target_points": [
+        [
+          27,
+          45
+        ]
+      ],
+      "preferred_nozzles": [
+        "GRIPPER"
+      ],
+      "base_time_s": 1.5,
+      "heat_time_s": 0.0,
+      "priority": 1,
+      "prerequisites": [
+        "U1",
+        "U2",
+        "U3"
+      ]
+    },
+    {
+      "oid": "E1",
+      "component_id": "HEATSINK_A",
+      "optype": "EXTRACT",
+      "side": "TOP",
+      "target_points": [
+        [
+          27,
+          45
+        ]
+      ],
+      "preferred_nozzles": [
+        "GRIPPER"
+      ],
+      "base_time_s": 2.5,
+      "heat_time_s": 0.0,
+      "priority": 2,
+      "prerequisites": [
+        "C1"
+      ]
+    },
+    {
+      "oid": "H1",
+      "component_id": "IC_U5",
+      "optype": "HOT_AIR",
+      "side": "BOTTOM",
+      "target_points": [
+        [
+          80,
+          30
+        ]
+      ],
+      "preferred_nozzles": [
+        "HOT_AIR_4"
+      ],
+      "base_time_s": 3.0,
+      "heat_time_s": 5.0,
+      "priority": 3,
+      "prerequisites": []
+    },
+    {
+      "oid": "D1",
+      "component_id": "IC_U5",
+      "optype": "DESOLDER_SUCK",
+      "side": "BOTTOM",
+      "target_points": [
+        [
+          80,
+          30
+        ]
+      ],
+      "preferred_nozzles": [
+        "DESOLDER"
+      ],
+      "base_time_s": 2.0,
+      "heat_time_s": 0.0,
+      "priority": 4,
+      "prerequisites": [
+        "H1"
+      ]
+    },
+    {
+      "oid": "E2",
+      "component_id": "IC_U5",
+      "optype": "EXTRACT",
+      "side": "TOP",
+      "target_points": [
+        [
+          80,
+          30
+        ]
+      ],
+      "preferred_nozzles": [
+        "GRIPPER"
+      ],
+      "base_time_s": 2.0,
+      "heat_time_s": 0.0,
+      "priority": 5,
+      "prerequisites": [
+        "D1"
+      ]
+    },
+    {
+      "oid": "J1",
+      "component_id": "C_ELEC1",
+      "optype": "HEAT_JOINT",
+      "side": "BOTTOM",
+      "target_points": [
+        [
+          120,
+          60
+        ],
+        [
+          123,
+          60
+        ]
+      ],
+      "preferred_nozzles": [
+        "TIP_M"
+      ],
+      "base_time_s": 1.5,
+      "heat_time_s": 2.0,
+      "priority": 3,
+      "prerequisites": []
+    },
+    {
+      "oid": "D2",
+      "component_id": "C_ELEC1",
+      "optype": "DESOLDER_SUCK",
+      "side": "BOTTOM",
+      "target_points": [
+        [
+          121.5,
+          60
+        ]
+      ],
+      "preferred_nozzles": [
+        "DESOLDER"
+      ],
+      "base_time_s": 2.0,
+      "heat_time_s": 0.0,
+      "priority": 4,
+      "prerequisites": [
+        "J1"
+      ]
+    },
+    {
+      "oid": "E3",
+      "component_id": "C_ELEC1",
+      "optype": "EXTRACT",
+      "side": "BOTTOM",
+      "target_points": [
+        [
+          121.5,
+          60
+        ]
+      ],
+      "preferred_nozzles": [
+        "GRIPPER"
+      ],
+      "base_time_s": 1.8,
+      "heat_time_s": 0.0,
+      "priority": 5,
+      "prerequisites": [
+        "D2"
+      ]
+    }
+  ]
+}

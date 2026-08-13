@@ -1,0 +1,40 @@
+{
+  "board_id": "XL4015",
+  "image_path": "yolo_proto\\data\\caps_xl_test\\xl_test_1.jpg",
+  "image_size_px": [
+    705,
+    1449
+  ],
+  "components": [
+    {
+      "comp_id": "Y0",
+      "source": "yolo",
+      "class_id": 0,
+      "class_name": "electrolyt_cap_vert",
+      "conf": 0.2576,
+      "x1": 185.8415985107422,
+      "y1": 6.509512424468994,
+      "x2": 475.2726745605469,
+      "y2": 294.2093200683594,
+      "x_center": 330.55713653564453,
+      "y_center": 150.35941624641418,
+      "width": 289.4310760498047,
+      "height": 287.6998076438904
+    },
+    {
+      "comp_id": "Y1",
+      "source": "yolo",
+      "class_id": 0,
+      "class_name": "electrolyt_cap_vert",
+      "conf": 0.2149,
+      "x1": 187.8679962158203,
+      "y1": 1161.478271484375,
+      "x2": 472.00506591796875,
+      "y2": 1434.4749755859375,
+      "x_center": 329.93653106689453,
+      "y_center": 1297.9766235351562,
+      "width": 284.13706970214844,
+      "height": 272.9967041015625
+    }
+  ]
+}
