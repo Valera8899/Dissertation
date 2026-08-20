@@ -1,7 +1,4 @@
 # planner_main.py
-# Легка версія з реалістичними заїздами до баз/станції.
-# Є: батчинг за (side, nozzle), штраф setup і side-switch, summary з розкладом часу.
-# На графіку видно і MOVE_*/SETUP_* кроки (фільтруємо тільки RESCAN_*).
 
 import random
 random.seed(42)
